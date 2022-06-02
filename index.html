@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PDPA Enforcement Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The PDPA Enforcement Tracker is an overview of fines which the Personal Data Protection Commission (PDPC) has imposed under the Personal Data Protection Act (PDPA).">
+    <style> table,th,td{border:solid 1px #ddd;border-collapse:collapse;padding:2px 3px}th{font-weight:700;cursor:pointer}th,td{text-align:left;padding:16px}tr:nth-child(even){background-color:#f2f2f2}</style>
+
+<script type="text/javascript" src="data.js"></script>
+<script>
+function tableFromJson() {
+    // Extract value from table header. 
+    // ('Publication Date', 'Organisation', 'Fine (S$)', 'Source', 'Summary')
+    var col = [];
+    for (var i = 0; i < enforcementDecisions.length; i++) {
+        for (var key in enforcementDecisions[i]) {
+            if (col.indexOf(key) === -1) {
+                col.push(key);
+            }
+        }
+    }
+
+    // Create a table.
+    var table = document.createElement("table");
+    table.id = "pdpaTable";
+
+    // Create table header row using the extracted headers above.
+    var tr = table.insertRow(-1); // table row.
+
+    for (var i = 0; i < col.length; i++) {
+
+        if (
+            (col[i] == "Publication Date") ||
+            (col[i] == "Organisation") ||
+            (col[i] == "Fine (S$)") ||
+            (col[i] == "Summary")
+        ) {
+            var th = document.createElement("th"); // table header.
+            th.setAttribute("onclick", "sortTable(" + i + ")");
+            th.innerHTML = col[i];
+            tr.appendChild(th);
+        }
+    }
+
+    // add json data to the table as rows.
+    for (var i = 0; i < enforcementDecisions.length; i++) {
+
+        if (
+            (enforcementDecisions[i][col[3]] == 0) &&
+            (enforcementDecisions[i][col[4]] == 0) &&
+            (enforcementDecisions[i][col[5]] == 0) &&
+            (enforcementDecisions[i][col[6]] == 0) &&
+            (enforcementDecisions[i][col[7]] == 0) &&
+            (enforcementDecisions[i][col[8]] == 0) &&
+            (enforcementDecisions[i][col[9]] == 0)
+        ) {
+            // not in breach
+            //console.log(enforcementDecisions[i][col[1]]);
+        } else {
+            tr = table.insertRow(-1);
+
+            for (var j = 0; j < col.length; j++) {
+
+                if (j < 3 || j > 10) {
+
+                    var tabCell = tr.insertCell(-1);
+
+                    if (j == 11) {
+                        tabCell.innerHTML = enforcementDecisions[i][col[j]] + " (<a href='" + enforcementDecisions[i][col[j - 1]] + "'>Read more</a>)";
+                    } else {
+                        tabCell.innerHTML = enforcementDecisions[i][col[j]];
+                    }
+                }
+
+            }
+        }
+    }
+
+    // Add newly created table with json data, to a container.
+    var pdpaData = document.getElementById("pdpaData");
+    pdpaData.innerHTML = "";
+    pdpaData.appendChild(table);
+}
+
+function sortTable(n) {
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.getElementById("pdpaTable");
+    switching = true;
+    dir = "asc";
+    while (switching) {
+        switching = false;
+        rows = table.rows;
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("TD")[n];
+            y = rows[i + 1].getElementsByTagName("TD")[n];
+
+            let isnum = false;
+            let x_isnum = /^\d+$/.test(x.innerHTML);
+            let y_isnum = /^\d+$/.test(y.innerHTML);
+
+            if (x_isnum && y_isnum) isnum = true;
+
+            if (dir == "asc") {
+                if (isnum) {
+                    if (Number(x.innerHTML) > Number(y.innerHTML)) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                } else {
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+            } else if (dir == "desc") {
+                if (isnum) {
+                    if (Number(x.innerHTML) < Number(y.innerHTML)) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                } else {
+                    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            switchcount++;
+        } else {
+            if (switchcount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+            }
+        }
+    }
+}
+</script>
+</head>
+
+<body onload="tableFromJson()">
+  <h1>PDPA Enforcement Tracker</h1>
+  <h3>Bringing transparency to the fast-changing digital landscape in Singapore and helping to build a more privacy-aware society.</h3>
+
+  <p>The PDPA Enforcement Tracker is an overview of fines which the Personal Data Protection Commission (PDPC) has imposed under the Personal Data Protection Act (PDPA).</p>
+
+  <p>The PDPA recognises both the need to protect individuals’ personal data and the need of organisations to collect, use or disclose personal data for legitimate and reasonable purposes. A data protection regime is necessary to safeguard personal data from misuse and to maintain individuals’ trust in organisations that manage their data.</p>
+
+  <p>The data protection obligations under the PDPA were established on 2 July 2014.</p>
+
+  <p id="pdpaInfo"></p>
+
+  <script>
+    document.getElementById("pdpaInfo").innerHTML = "Till date, there has been a total of <strong>" + breachCount + "</strong> infractions where organisations were found to have contravened the data protection provisions under the PDPA, and a total number of <strong>" + fineCount + "</strong> fines amounting to <strong>S$" + totalFineAmt + "</strong> were issued.";
+  </script>
+
+  <p id="pdpaData"></p>
+
+</body>
+</html>
