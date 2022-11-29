@@ -1,5 +1,33 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2022-11-18",
+    "Organisation": "Shopify",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 0,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 1,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Supernova-Pte-Ltd_06102022.ashx?la=en",
+    "Summary": "Directions were issued to both Shopify Commerce Singapore and Supernova to put in place a process to ensure compliance with the Transfer Limitation Obligation following a data breach incident of Shopify Inc's database."
+  },
+  {
+    "Publication Date": "2022-11-18",
+    "Organisation": "Farrer Park Hospital",
+    "Fine (S$)": 58000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Farrer-Park-Hospital-Pte-Ltd_15092022.ashx?la=en",
+    "Summary": "A financial penalty of $58,000 was imposed on Farrer Park Hospital for failing to put in place reasonable security arrangements to protect the personal data in its possession or under its control."
+  },
+  {
     "Publication Date": "2022-10-25",
     "Organisation": "QCP Capital",
     "Fine (S$)": 0,
