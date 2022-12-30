@@ -1,5 +1,33 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2022-12-19",
+    "Organisation": "Thomson Medical",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/Decision---Thomson-Medical-Pte-Ltd---140922.ashx?la=en",
+    "Summary": "Directions were issued to Thomson Medical to conduct scan of the web to ensure no publication of affected personal data online and to include in the review of its application deployment process, measures such as the arrangements for security testing and the implementation of data retention policy. This is pursuant to a data breach incident from an unsecured Health Declaration Portal which enabled public access to visitors' personal data."
+  },
+  {
+    "Publication Date": "2022-12-19",
+    "Organisation": "RedMart",
+    "Fine (S$)": 72000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/Decision---RedMart-Limited---28102022.ashx?la=en",
+    "Summary": "A financial penalty of $72,000 was imposed on RedMart for failing to put in place reasonable security arrangements to protect the personal data in its possession or under its control."
+  },
+  {
     "Publication Date": "2022-11-18",
     "Organisation": "Shopify",
     "Fine (S$)": 0,
@@ -12,7 +40,7 @@ var enforcementDecisions = [
     "breach_transfer_limitation": 1,
     "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Supernova-Pte-Ltd_06102022.ashx?la=en",
     "Summary": "Directions were issued to both Shopify Commerce Singapore and Supernova to put in place a process to ensure compliance with the Transfer Limitation Obligation following a data breach incident of Shopify Inc's database."
-  },
+  },    
   {
     "Publication Date": "2022-11-18",
     "Organisation": "Farrer Park Hospital",
