@@ -1,5 +1,33 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2023-02-10",
+    "Organisation": "CPR Vision Management",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/Decision---CPR-Vision-Management-Pte-Ltd---071222.pdf",
+    "Summary": "Directions were issued to CPR Vision Management Pte Ltd to conduct a security audit of its technical and administrative arrangements for the protection of personal data in its possession or control and rectify any security gaps identified in the audit report. This is pursuant to a data breach incident where CPR Vision Management Pte Ltd’s server and network storage devices were subjected to a ransomware attack."
+  },
+  {
+    "Publication Date": "2023-02-10",
+    "Organisation": "RedMart",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 1,
+    "breach_notification": 1,
+    "breach_protection": 0,
+    "breach_purpose_limitation": 1,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/Decision---RedMart-Limited---18012023.pdf",
+    "Summary": "RedMart had failed to obtain consent and inform its suppliers of the purpose for collecting images of the physical NRICs and other identification documents. However, the Commission had subsequently assessed that RedMart had met the requirements for reliance on the Legitimate Interests Exception and complied with the proposed direction. As such, no direction was issued to RedMart."
+  },
+  {
     "Publication Date": "2022-12-19",
     "Organisation": "Thomson Medical",
     "Fine (S$)": 0,
