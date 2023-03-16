@@ -1,5 +1,33 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2023-03-10",
+    "Organisation": "Sembcorp Marine",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 0,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Sembcorp-Marine-Ltd_070223.pdf",
+    "Summary": "Sembcorp Marine was found not in breach of the PDPA in relation to an incident whereby threat actor(s) exfiltrated personal data by exploiting a zero-day vulnerability present in an application."
+  },
+  {
+    "Publication Date": "2023-03-10",
+    "Organisation": "Eatigo International",
+    "Fine (S$)": 62400,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Eatigo-International-Pte-Ltd_211222.pdf",
+    "Summary": "A financial penalty of $62,400 was imposed on Eatigo International for failing to put in place reasonable security arrangements to protect users' personal data in its possession or under its control."
+  },  
+  {
     "Publication Date": "2023-02-10",
     "Organisation": "CPR Vision Management",
     "Fine (S$)": 0,
