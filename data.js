@@ -1,5 +1,33 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2023-04-17",
+    "Organisation": "OrangeTee",
+    "Fine (S$)": 37000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_OrangeTee_210223.pdf",
+    "Summary": "A financial penalty of $37,000 was imposed on OrangeTee & Tie for failing to put in place reasonable security arrangements to protect users' personal data in its possession or under its control."
+  },  
+  {
+    "Publication Date": "2023-04-17",
+    "Organisation": "Individual",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 0,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_TaiShinFatt_140223.pdf",
+    "Summary": "A warning was issued to an individual for using dictionary attack methods to generate telephone numbers which were then used for telemarketing purposes, thereby breaching section 48B of the PDPA."
+  },    
+  {
     "Publication Date": "2023-03-10",
     "Organisation": "Sembcorp Marine",
     "Fine (S$)": 0,
