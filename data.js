@@ -1,5 +1,47 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2023-05-11",
+    "Organisation": "Kingsforce Management Services",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_KingsforceManagementServicesPteLtd_100323.pdf",
+    "Summary": "Directions were issued to Kingsforce Management Services to ensure the implementation of regular patching, updates and upgrades for all software and firmware supporting its website(s) and application through which personal data in its possession may be accessed."
+  },  
+  {
+    "Publication Date": "2023-05-11",
+    "Organisation": "Fortytwo",
+    "Fine (S$)": 8000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_FortyTwo070323.pdf",
+    "Summary": "A financial penalty of $8,000 was imposed on Fortytwo for failing to put in place reasonable security arrangements to protect the personal data in its possession. Fortytwo was also issued directions to complete the upgrading of its website to a supported software version, including vulnerability assessment and penetration testing."
+  },  
+  {
+    "Publication Date": "2023-05-11",
+    "Organisation": "The Law Society of Singapore",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_LawSocietyofSingapore_140323.pdf",
+    "Summary": "Directions were issued to The Law Society of Singapore to conduct a security audit of its technical and administrative arrangements for accounts with administrative privileges that can access directly and/or create access to personal data, and to rectify any gaps identified. This is pursuant to a data breach incident where The Law Society’s servers were subjected to a ransomware attack."
+  },      
+  {
     "Publication Date": "2023-04-17",
     "Organisation": "OrangeTee",
     "Fine (S$)": 37000,
