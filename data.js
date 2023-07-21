@@ -1,5 +1,33 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2023-06-22",
+    "Organisation": "Fullerton Healthcare",
+    "Fine (S$)": 58000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Fullerton-Healthcare-Group-and-Agape-CP-Holdings_230323.pdf",
+    "Summary": "A financial penalty of $58,000 and $10,000 was imposed on Fullerton Healthcare and Agape CP Holdings respectively for failing to put in place reasonable security arrangements to protect personal data belonging to Fullerton Healthcare’s corporate clients and direct patients. Directions were also issued to both organisations to review and enhance processes relating to data handling processes, security audits and access controls to bolster their data protection arrangements."
+  },  
+  {
+    "Publication Date": "2023-06-22",
+    "Organisation": "Agape CP Holdings",
+    "Fine (S$)": 10000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Fullerton-Healthcare-Group-and-Agape-CP-Holdings_230323.pdf",
+    "Summary": "A financial penalty of $58,000 and $10,000 was imposed on Fullerton Healthcare and Agape CP Holdings respectively for failing to put in place reasonable security arrangements to protect personal data belonging to Fullerton Healthcare’s corporate clients and direct patients. Directions were also issued to both organisations to review and enhance processes relating to data handling processes, security audits and access controls to bolster their data protection arrangements."
+  },  
+  {
     "Publication Date": "2023-05-11",
     "Organisation": "Kingsforce Management Services",
     "Fine (S$)": 0,
@@ -12,7 +40,7 @@ var enforcementDecisions = [
     "breach_transfer_limitation": 0,
     "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_KingsforceManagementServicesPteLtd_100323.pdf",
     "Summary": "Directions were issued to Kingsforce Management Services to ensure the implementation of regular patching, updates and upgrades for all software and firmware supporting its website(s) and application through which personal data in its possession may be accessed."
-  },  
+  },      
   {
     "Publication Date": "2023-05-11",
     "Organisation": "Fortytwo",
