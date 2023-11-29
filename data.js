@@ -1,5 +1,33 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2023-11-10",
+    "Organisation": "Ascentis",
+    "Fine (S$)": 10000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Ascentis_12092023.pdf",
+    "Summary": "A financial penalty of $10,000 was imposed on Ascentis for failing to put in place reasonable security arrangements to protect individuals' personal data in its possession or under its control."
+  },  
+  {
+    "Publication Date": "2023-11-10",
+    "Organisation": "Tokyo Century Leasing",
+    "Fine (S$)": 82000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Tokyo_Century_Leasing_040923.pdf",
+    "Summary": "A financial penalty of $82,000 was imposed on Tokyo Century Leasing for failing to put in place reasonable security arrangements to protect individuals' personal data in its possession or under its control."
+  },  
+  {
     "Publication Date": "2023-09-15",
     "Organisation": "Century Evergreen",
     "Fine (S$)": 9000,
