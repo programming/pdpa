@@ -1,5 +1,33 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2024-01-17",
+    "Organisation": "Mobile Chat",
+    "Fine (S$)": 48000,
+    "breach_accountability": 0,
+    "breach_consent": 1,
+    "breach_notification": 0,
+    "breach_protection": 0,
+    "breach_purpose_limitation": 1,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_Koh-Wei-Ming_171023.pdf",
+    "Summary": "A financial penalty of $48,000 was imposed on Koh Wei Ming @ Muhammad Amin Koh (trading as Mobile Chat) for using his customers’ personal data to register for additional prepaid SIM cards without their consent. The additional SIM cards were then sold to anonymous and unauthorised purchasers who subsequently used them to send specified messages to individuals who were registered with the Do Not Call Register."
+  },  
+  {
+    "Publication Date": "2023-12-14",
+    "Organisation": "Tipros",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 0,
+    "breach_purpose_limitation": 1,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/Files/PDPC/PDF-Files/Commissions-Decisions/GD_TIPROS_080623.pdf",
+    "Summary": "Directions were issued to Tipros for failing to use or disclose personal data about an individual only for purposes that a reasonable person would consider appropriate."
+  },    
+  {
     "Publication Date": "2023-11-10",
     "Organisation": "Ascentis",
     "Fine (S$)": 10000,
