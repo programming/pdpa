@@ -1,5 +1,19 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2024-08-28",
+    "Organisation": "Consumers’ Association of Singapore",
+    "Fine (S$)": 20000,
+    "breach_accountability": 1,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/commissions-decisions/gd_consumers-association-of-singapore_09072024.pdf",
+    "Summary": "A financial penalty of $20,000 was imposed on Consumers’ Association of Singapore for failing to put in place reasonable security arrangements to protect the personal data in its possession or under its control, and failing to develop and implement policies and practices that are necessary to meet its obligations under the PDPA."
+  },  
+  {
     "Publication Date": "2024-08-02",
     "Organisation": "Academy of Medicine Singapore",
     "Fine (S$)": 9000,
