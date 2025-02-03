@@ -1,5 +1,19 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2024-11-24",
+    "Organisation": "HMI Institute of Health Science",
+    "Fine (S$)": 10000,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/commissions-decisions/gd_hmi-institute-of-health-science_081024.pdf",
+    "Summary": "A financial penalty of $10,000 was imposed and directions were issued to HMI Institute of Health Science for failing to put in place reasonable security arrangements to protect the personal data of former students."
+  }, 
+  {
     "Publication Date": "2024-08-28",
     "Organisation": "Consumers’ Association of Singapore",
     "Fine (S$)": 20000,
