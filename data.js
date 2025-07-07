@@ -1,5 +1,19 @@
 var enforcementDecisions = [
   {
+    "Publication Date": "2025-07-03",
+    "Organisation": "Ezynetic",
+    "Fine (S$)": 17500,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 1,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/commissions-decisions/gd_ezynetic-pte-ltd_03032025.pdf",
+    "Summary": "A financial penalty of $17,500 was imposed and directions were issued to Ezynetic for failing to put in place reasonable security arrangements to protect the personal data in its possession or under its control."
+  }, 
+  {
     "Publication Date": "2024-11-24",
     "Organisation": "HMI Institute of Health Science",
     "Fine (S$)": 10000,
