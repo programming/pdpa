@@ -1,6 +1,34 @@
 var enforcementDecisions = [
   {
     "Publication Date": "2025-07-03",
+    "Organisation": "MCST 4599",
+    "Fine (S$)": 0,
+    "breach_accountability": 1,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 0,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/commissions-decisions/gd_mcst-4599_19052025.pdf",
+    "Summary": "Directions were issued to the Management Corporation - Strata Title Plan No. 4599 for failing to develop and implement policies and practices that are necessary to meet its obligations under the PDPA."
+  }, 
+  {
+    "Publication Date": "2025-07-31",
+    "Organisation": "Institute of Mental Health",
+    "Fine (S$)": 0,
+    "breach_accountability": 0,
+    "breach_consent": 0,
+    "breach_notification": 0,
+    "breach_protection": 0,
+    "breach_purpose_limitation": 0,
+    "breach_retention_limitation": 0,
+    "breach_transfer_limitation": 0,
+    "Source": "https://www.pdpc.gov.sg/-/media/files/pdpc/pdf-files/commissions-decisions/gd_institute-of-mental-health_21052025.pdf",
+    "Summary": "The Institute of Mental Health was found not in breach of the PDPA in relation to an incident which occurred on or about 20 March 2024 whereby a research officer approached and identified the complainant by his full name to seek consent for participation in a medical study."
+  },   
+  {
+    "Publication Date": "2025-07-03",
     "Organisation": "Ezynetic",
     "Fine (S$)": 17500,
     "breach_accountability": 0,
