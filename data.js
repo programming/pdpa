@@ -1,6 +1,6 @@
 var enforcementDecisions = [
   {
-    "Publication Date": "2025-07-03",
+    "Publication Date": "2025-08-07",
     "Organisation": "MCST 4599",
     "Fine (S$)": 0,
     "breach_accountability": 1,
